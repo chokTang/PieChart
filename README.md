@@ -38,9 +38,9 @@
                          //控制是否显示数据只是
                          pieChart.setIsShowDate(boolean)
    ####  属性
-   >> height 饼状图的高度
-   >> width 饼状图的宽度
-   >> mStartAngle 饼状图的起始角度
-   >> circleBackgroundColor 饼状图的背景颜色
-   >> isShowData 饼状图是否显示 数据指引
-   >> textSize 数据指引字体大小
+   >>   height 饼状图的高度
+        width 饼状图的宽度
+        mStartAngle 饼状图的起始角度
+        circleBackgroundColor 饼状图的背景颜色
+        isShowData 饼状图是否显示 数据指引
+        textSize 数据指引字体大小
