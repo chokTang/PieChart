@@ -27,7 +27,10 @@
                         app:textSize="12sp"
                         />
 
-        >>         设置数据源Data实体的集合 自己设置
+        >>         设置数据源Data实体的集合 自己设置 数据随意设置 也可以用 例子上的数据
+                        private val mColors = intArrayOf(-0x330100, -0x9b6a13, -0x1cd9ca, -0x800000, -0x7f8000, -0x7397, -0x7f7f80, -0x194800, -0x830400)
+                        private val mColors1 = intArrayOf(Color.RED, Color.BLUE, Color.YELLOW, Color.GREEN, Color.CYAN, Color.GRAY)
+                        private val angle = floatArrayOf(0.37f, 0.1f, 0.13f, 0.2f, 0.15f, 0.05f)
                         for (i in 0 until 5) {
                             val data = Data()
                             data.color = mColors[i]
