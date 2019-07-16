@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PieChartView">
+        <attr name="circleWidth" format="dimension" />
+        <attr name="width" format="dimension" />
+        <attr name="height" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="mStartAngle" format="float" />
+        <attr name="isShowData" format="boolean" />
+        <attr name="circleBackgroundColor" format="color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MoveView">
+        <attr name="circleX" format="integer" />
+        <attr name="circleY" format="integer" />
+        <attr name="circleR" format="integer" />
+        <attr name="circleStock" format="integer" />
+        <attr name="isClickViewMove" format="boolean" />
+        <attr name="colorMin" format="color" />
+        <attr name="colorMax" format="color" />
+    </declare-styleable>
+</resources>

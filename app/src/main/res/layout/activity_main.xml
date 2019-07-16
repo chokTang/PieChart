@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <!--<lazier.org.testdemo.FilletButton-->
+    <!--android:id="@+id/ll_test1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--</lazier.org.testdemo.FilletButton>-->
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_dianji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击按钮"/>
+
+        <lazier.org.moveview.MoveView
+            android:id="@+id/move_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:circleX="100"
+            app:circleY="100"
+            android:visibility="gone"
+            app:colorMin="@color/colorAccent"
+            app:colorMax="@color/colorPrimaryDark"
+            app:circleR="60"
+            app:isClickViewMove="true"
+            />
+
+
+        <lazier.org.piechart.PieChartView
+            android:id="@+id/pieChart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:circleWidth="5dp"
+            app:height="300dp"
+            app:width="300dp"
+            app:mStartAngle="0"
+            app:circleBackgroundColor="@color/colorAccent"
+            app:isShowData="false"
+            app:textSize="12sp"
+            />
+    </FrameLayout>
+
+</LinearLayout>
