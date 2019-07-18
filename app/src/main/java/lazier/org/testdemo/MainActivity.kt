@@ -1,5 +1,6 @@
 package lazier.org.testdemo
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
@@ -43,6 +44,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 Toast.makeText(this, "你点击了点击按钮", Toast.LENGTH_SHORT).show()
                 boolean = !boolean
                 pieChart.setIsShowDate(boolean)
+                val intent = Intent(this,RxActivity::class.java)
+                startActivity(intent)
             }
 
         }

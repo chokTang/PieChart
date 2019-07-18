@@ -23,18 +23,18 @@
             android:layout_height="wrap_content"
             android:text="点击按钮"/>
 
-        <lazier.org.moveview.MoveView
-            android:id="@+id/move_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:circleX="100"
-            app:circleY="100"
-            android:visibility="gone"
-            app:colorMin="@color/colorAccent"
-            app:colorMax="@color/colorPrimaryDark"
-            app:circleR="60"
-            app:isClickViewMove="true"
-            />
+        <!--<lazier.org.moveview.MoveView-->
+            <!--android:id="@+id/move_view"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:circleX="100"-->
+            <!--app:circleY="100"-->
+            <!--android:visibility="gone"-->
+            <!--app:colorMin="@color/colorAccent"-->
+            <!--app:colorMax="@color/colorPrimaryDark"-->
+            <!--app:circleR="60"-->
+            <!--app:isClickViewMove="true"-->
+            <!--/>-->
 
 
         <lazier.org.piechart.PieChartView
