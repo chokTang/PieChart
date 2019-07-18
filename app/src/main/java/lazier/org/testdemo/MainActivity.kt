@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         tv_dianji.setOnClickListener(this)
+        tv_test.setOnClickListener(this)
         for (i in 0 until 5) {
             val data = Data()
             data.color = mColors[i]
@@ -44,6 +45,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 Toast.makeText(this, "你点击了点击按钮", Toast.LENGTH_SHORT).show()
                 boolean = !boolean
                 pieChart.setIsShowDate(boolean)
+                val intent = Intent(this,RxActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.tv_test -> {
                 val intent = Intent(this,RxActivity::class.java)
                 startActivity(intent)
             }
